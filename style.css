@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pdfintro{
+    display: grid;
+    margin: auto;
+}
+
+.downloadbutton button{
+    position: absolute;
+    align-items: center;
+    height: 2rem; width: 6rem;
+    background-color: chocolate;
+    border: solid chocolate;
+    border-radius: 0.5rem;
+}
+
+.downloadbutton button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.downloadbutton button:hover{
+    background-color: rgb(100, 56, 25);
+    cursor: pointer;
+}
